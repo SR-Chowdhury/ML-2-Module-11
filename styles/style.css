@@ -48,7 +48,7 @@ header {
 .facts-section,
 .sposored-section,
 .bottom-featured-section,
-footer {
+.footer-container {
     max-width: 1240px;
     margin: 0 auto;
 }
@@ -57,6 +57,10 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.nav-hidden-icon {
+    display: none;
 }
 
 .nav-title h2 {
@@ -415,7 +419,7 @@ nav {
 /*-------------------
     Footer Start 
 ---------------------*/
-footer {
+.footer-container {
     margin-top: 50px;
     margin-bottom: 50px;
     padding: 38px 0px;

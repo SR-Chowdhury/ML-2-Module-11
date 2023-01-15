@@ -2,5 +2,136 @@
     Media Query for Mobile Screen 
 -------------------------------*/
 @media only screen and (max-width:576px) {
-    
+
+    header,
+    .banner-section,
+    .quick-list-section,
+    .detailed-featured-section,
+    .facts-section,
+    .bottom-featured-section,
+    .sposored-section,
+    footer {
+        padding: 15px;
+    }
+
+    nav {
+        flex-direction: column;
+    }
+
+    .nav-title {
+        margin-top: 15px;
+    }
+
+    .nav-hidden-icon {
+        display: contents;
+    }
+
+    .nav-hidden-icon {
+        text-align: right;
+    }
+
+    .nav-hidden-icon a {
+        font-size: 34px;
+        color: #131313;
+    }
+
+    .nav-link {
+        display: none;
+    }
+
+    .banner-container {
+        gap: 3px;
+    }
+
+    .banner-title {
+        font-weight: 700;
+        font-size: 60px;
+        line-height: 70px;
+    }
+
+    .quick-list-section {
+        flex-direction: column-reverse;
+        gap: 45px;
+        margin-bottom: 30px;
+    }
+
+    .quick-list-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .quick-list-title {
+        margin-top: 30px;
+    }
+
+    .quick-list-description {
+        text-align: center;
+    }
+
+    .detailed-featured-section {
+        flex-direction: column;
+        gap: 3px;
+    }
+
+    .featured-details,
+    .features-image {
+        width: 100%;
+    }
+
+    .experince-container {
+        left: 0;
+    }
+
+    .facts-section {
+        margin-top: -55px;
+    }
+
+    .single-facts-container {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .single-facts {
+        width: 100%;
+        padding: 15px 0px;
+    }
+
+    .facts-details {
+        width: 100%;
+    }
+
+    .bottom-featured-section {
+        flex-direction: column;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        gap: 10px;
+    }
+
+    .bottom-featured-img,
+    .bottom-featured-info {
+        width: 100%;
+    }
+
+    .bottom-featured-title {
+        font-size: 40px;
+    }
+
+    .mb-center {
+        text-align: center;
+    }
+
+    .sponsor-details {
+        max-width: 100%;
+        margin-top: 0px;
+    }
+
+    .sponsor-logo {
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+    }
+
+    .footer-container {
+        margin-top: 15px;
+        margin-bottom: 10px;
+    }
 }
